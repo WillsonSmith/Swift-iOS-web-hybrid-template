@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9268FD931BFFF82E00707CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FD921BFFF82E00707CBC /* AppDelegate.swift */; };
+		9268FD951BFFF82E00707CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FD941BFFF82E00707CBC /* ViewController.swift */; };
+		9268FD981BFFF82E00707CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268FD961BFFF82E00707CBC /* Main.storyboard */; };
+		9268FD9A1BFFF82F00707CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9268FD991BFFF82F00707CBC /* Assets.xcassets */; };
+		9268FD9D1BFFF82F00707CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268FD9B1BFFF82F00707CBC /* LaunchScreen.storyboard */; };
+		9268FDA81BFFF82F00707CBC /* Swift_iOS_web_hybrid_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FDA71BFFF82F00707CBC /* Swift_iOS_web_hybrid_templateTests.swift */; };
+		9268FDB91BFFF94E00707CBC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9268FDB51BFFF94E00707CBC /* index.html */; settings = {ASSET_TAGS = (); }; };
+		9268FDBC1BFFF96C00707CBC /* css in Resources */ = {isa = PBXBuildFile; fileRef = 9268FDBB1BFFF96C00707CBC /* css */; settings = {ASSET_TAGS = (); }; };
+		9268FDBE1BFFF97400707CBC /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9268FDBD1BFFF97400707CBC /* js */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9268FDA41BFFF82F00707CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9268FD871BFFF82E00707CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9268FD8E1BFFF82E00707CBC;
+			remoteInfo = "Swift iOS web hybrid template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9268FD8F1BFFF82E00707CBC /* Swift iOS web hybrid template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift iOS web hybrid template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268FD921BFFF82E00707CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9268FD941BFFF82E00707CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9268FD971BFFF82E00707CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9268FD991BFFF82F00707CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9268FD9C1BFFF82F00707CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9268FD9E1BFFF82F00707CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9268FDA31BFFF82F00707CBC /* Swift iOS web hybrid templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift iOS web hybrid templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268FDA71BFFF82F00707CBC /* Swift_iOS_web_hybrid_templateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_iOS_web_hybrid_templateTests.swift; sourceTree = "<group>"; };
+		9268FDA91BFFF82F00707CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9268FDB51BFFF94E00707CBC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9268FDBB1BFFF96C00707CBC /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		9268FDBD1BFFF97400707CBC /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9268FD8C1BFFF82E00707CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268FDA01BFFF82F00707CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9268FD861BFFF82E00707CBC = {
+			isa = PBXGroup;
+			children = (
+				9268FDB21BFFF94E00707CBC /* web_root */,
+				9268FD911BFFF82E00707CBC /* Swift iOS web hybrid template */,
+				9268FDA61BFFF82F00707CBC /* Swift iOS web hybrid templateTests */,
+				9268FD901BFFF82E00707CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9268FD901BFFF82E00707CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9268FD8F1BFFF82E00707CBC /* Swift iOS web hybrid template.app */,
+				9268FDA31BFFF82F00707CBC /* Swift iOS web hybrid templateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9268FD911BFFF82E00707CBC /* Swift iOS web hybrid template */ = {
+			isa = PBXGroup;
+			children = (
+				9268FD921BFFF82E00707CBC /* AppDelegate.swift */,
+				9268FD941BFFF82E00707CBC /* ViewController.swift */,
+				9268FD961BFFF82E00707CBC /* Main.storyboard */,
+				9268FD991BFFF82F00707CBC /* Assets.xcassets */,
+				9268FD9B1BFFF82F00707CBC /* LaunchScreen.storyboard */,
+				9268FD9E1BFFF82F00707CBC /* Info.plist */,
+			);
+			path = "Swift iOS web hybrid template";
+			sourceTree = "<group>";
+		};
+		9268FDA61BFFF82F00707CBC /* Swift iOS web hybrid templateTests */ = {
+			isa = PBXGroup;
+			children = (
+				9268FDA71BFFF82F00707CBC /* Swift_iOS_web_hybrid_templateTests.swift */,
+				9268FDA91BFFF82F00707CBC /* Info.plist */,
+			);
+			path = "Swift iOS web hybrid templateTests";
+			sourceTree = "<group>";
+		};
+		9268FDB21BFFF94E00707CBC /* web_root */ = {
+			isa = PBXGroup;
+			children = (
+				9268FDBD1BFFF97400707CBC /* js */,
+				9268FDBB1BFFF96C00707CBC /* css */,
+				9268FDB51BFFF94E00707CBC /* index.html */,
+			);
+			name = web_root;
+			path = "Swift iOS web hybrid template/web_root";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9268FD8E1BFFF82E00707CBC /* Swift iOS web hybrid template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9268FDAC1BFFF82F00707CBC /* Build configuration list for PBXNativeTarget "Swift iOS web hybrid template" */;
+			buildPhases = (
+				9268FD8B1BFFF82E00707CBC /* Sources */,
+				9268FD8C1BFFF82E00707CBC /* Frameworks */,
+				9268FD8D1BFFF82E00707CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift iOS web hybrid template";
+			productName = "Swift iOS web hybrid template";
+			productReference = 9268FD8F1BFFF82E00707CBC /* Swift iOS web hybrid template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9268FDA21BFFF82F00707CBC /* Swift iOS web hybrid templateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9268FDAF1BFFF82F00707CBC /* Build configuration list for PBXNativeTarget "Swift iOS web hybrid templateTests" */;
+			buildPhases = (
+				9268FD9F1BFFF82F00707CBC /* Sources */,
+				9268FDA01BFFF82F00707CBC /* Frameworks */,
+				9268FDA11BFFF82F00707CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9268FDA51BFFF82F00707CBC /* PBXTargetDependency */,
+			);
+			name = "Swift iOS web hybrid templateTests";
+			productName = "Swift iOS web hybrid templateTests";
+			productReference = 9268FDA31BFFF82F00707CBC /* Swift iOS web hybrid templateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9268FD871BFFF82E00707CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Willson Smith";
+				TargetAttributes = {
+					9268FD8E1BFFF82E00707CBC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9268FDA21BFFF82F00707CBC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9268FD8E1BFFF82E00707CBC;
+					};
+				};
+			};
+			buildConfigurationList = 9268FD8A1BFFF82E00707CBC /* Build configuration list for PBXProject "Swift iOS web hybrid template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9268FD861BFFF82E00707CBC;
+			productRefGroup = 9268FD901BFFF82E00707CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9268FD8E1BFFF82E00707CBC /* Swift iOS web hybrid template */,
+				9268FDA21BFFF82F00707CBC /* Swift iOS web hybrid templateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9268FD8D1BFFF82E00707CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9268FDBC1BFFF96C00707CBC /* css in Resources */,
+				9268FDBE1BFFF97400707CBC /* js in Resources */,
+				9268FDB91BFFF94E00707CBC /* index.html in Resources */,
+				9268FD9D1BFFF82F00707CBC /* LaunchScreen.storyboard in Resources */,
+				9268FD9A1BFFF82F00707CBC /* Assets.xcassets in Resources */,
+				9268FD981BFFF82E00707CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268FDA11BFFF82F00707CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9268FD8B1BFFF82E00707CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9268FD951BFFF82E00707CBC /* ViewController.swift in Sources */,
+				9268FD931BFFF82E00707CBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268FD9F1BFFF82F00707CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9268FDA81BFFF82F00707CBC /* Swift_iOS_web_hybrid_templateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9268FDA51BFFF82F00707CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9268FD8E1BFFF82E00707CBC /* Swift iOS web hybrid template */;
+			targetProxy = 9268FDA41BFFF82F00707CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9268FD961BFFF82E00707CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9268FD971BFFF82E00707CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9268FD9B1BFFF82F00707CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9268FD9C1BFFF82F00707CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9268FDAA1BFFF82F00707CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9268FDAB1BFFF82F00707CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9268FDAD1BFFF82F00707CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift iOS web hybrid template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-iOS-web-hybrid-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9268FDAE1BFFF82F00707CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift iOS web hybrid template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-iOS-web-hybrid-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9268FDB01BFFF82F00707CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift iOS web hybrid templateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-iOS-web-hybrid-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift iOS web hybrid template.app/Swift iOS web hybrid template";
+			};
+			name = Debug;
+		};
+		9268FDB11BFFF82F00707CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift iOS web hybrid templateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Swift-iOS-web-hybrid-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift iOS web hybrid template.app/Swift iOS web hybrid template";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9268FD8A1BFFF82E00707CBC /* Build configuration list for PBXProject "Swift iOS web hybrid template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9268FDAA1BFFF82F00707CBC /* Debug */,
+				9268FDAB1BFFF82F00707CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9268FDAC1BFFF82F00707CBC /* Build configuration list for PBXNativeTarget "Swift iOS web hybrid template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9268FDAD1BFFF82F00707CBC /* Debug */,
+				9268FDAE1BFFF82F00707CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9268FDAF1BFFF82F00707CBC /* Build configuration list for PBXNativeTarget "Swift iOS web hybrid templateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9268FDB01BFFF82F00707CBC /* Debug */,
+				9268FDB11BFFF82F00707CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9268FD871BFFF82E00707CBC /* Project object */;
+}
