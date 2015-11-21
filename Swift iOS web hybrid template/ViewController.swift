@@ -9,22 +9,43 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WKScriptMessageHandler {
 
     var webView: WKWebView?
     
     override func loadView() {
-        webView = WKWebView()
-        view = webView
+//        webView = WKWebView();
+        
+        let contentController = WKUserContentController();
+        contentController.addScriptMessageHandler(self, name: "callbackHandler");
+
+        let config = WKWebViewConfiguration();
+        config.userContentController = contentController;
+        
+        webView = WKWebView(frame: UIScreen.mainScreen().bounds, configuration: config)
+
+        view = webView;
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
         
         let url = NSBundle.mainBundle().URLForResource("index", withExtension:"html");
         self.webView!.loadFileURL(url!, allowingReadAccessToURL: url!);
+    }
+    
+    func userContentController(userContentController: WKUserContentController, didReceiveScriptMessage message: WKScriptMessage) {
 
-        // Do any additional setup after loading the view, typically from a nib.
+        if let messageBody:NSDictionary = message.body as? NSDictionary {
+            let functionToRun = String(messageBody.valueForKey("functionToRun")!);
+            switch(functionToRun) {
+                case "getCurrentVersion":
+                    getCurrentVersion();
+                default:
+                    return {}();
+            }
+        }
+        
     }
 
     func executeJavascript(functionToRun:String, argument:String?) {
@@ -38,7 +59,7 @@ class ViewController: UIViewController {
         
         functionName = "\(functionToRun)('\(arg)')";
         print(functionName);
-        self.webView!.evaluateJavaScript(functionName, completionHandler: handleJavascriptCompletion)
+        self.webView!.evaluateJavaScript(functionName, completionHandler: handleJavascriptCompletion);
     }
     
     func currentVersion() -> String {
@@ -56,8 +77,8 @@ class ViewController: UIViewController {
     }
     
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning();
         // Dispose of any resources that can be recreated.
     }
+    
 }
-

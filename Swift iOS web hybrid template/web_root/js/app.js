@@ -1,3 +1,4 @@
+var swift = {};
 function addVersion(version) {
     var textContainer = document.getElementsByClassName("text")[0];
     var p = document.createElement("p");
@@ -6,4 +7,5 @@ function addVersion(version) {
     textContainer.appendChild(p);
 }
 
-swift.getCurrentVersion();
+//swift.getCurrentVersion();
+webkit.messageHandlers.callbackHandler.postMessage({functionToRun: "getCurrentVersion"});
