@@ -58,7 +58,6 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         }
         
         functionName = "\(functionToRun)('\(arg)')";
-        print(functionName);
         self.webView!.evaluateJavaScript(functionName, completionHandler: handleJavascriptCompletion);
     }
     
