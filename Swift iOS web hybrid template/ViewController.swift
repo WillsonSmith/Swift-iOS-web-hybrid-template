@@ -14,8 +14,6 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     var webView: WKWebView?
     
     override func loadView() {
-//        webView = WKWebView();
-        
         let contentController = WKUserContentController();
         contentController.addScriptMessageHandler(self, name: "callbackHandler");
 

@@ -1,1 +1,9 @@
-# WIP - will update upon completion
+## What is this?
+This is a seleton of an iOS application written in Apple's Swift programming language that uses HTML, CSS, and JavaScript for its view layer. It has the ability to communicate between JavaScript and native Swift code. This was built from the foundations of its [OS X counterpart](https://github.com/WillsonSmith/Swift-web-hybrid-template)
+
+## Why?
+I'm a front end web developer, but I like native code. I enjoy building UI with what I'm comfortable with, but realize the limitations that exist in a native app environment. By combining web technologies and native Swift code, it's possible to create UI with comfort, but also enabling some of the more powerful features of iOS. 
+
+We've seen this done though other platforms such as [Apache Cordova](https://cordova.apache.org/). Cordova offers a lot to developers who don't know how to write native iOS code, but I believe having direct control over what your code is doing is important. I wanted to be able to build my own native connections, ones that if something doesn't work the way I want or need it to, I can change it because I know exactly how it does or does not function. This project doesn't serve the same abilities as Cordova, it is only build for iOS apps with Swift, whereas Cordova offers many platforms. Cordova offers links to native code that you don't need to understand, but I personally prefer to know exactly what I'm using. This project is the basic building block for building whatever you need, but it's not going to get you through on its own. It's also a learning experience for me.
+
+This code may change quite a bit, but I will try to stick with semver, starting with the 1.0.0 release as of this commit. 
